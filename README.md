@@ -13,21 +13,14 @@ This Python script helps organize files in a specified directory into categorize
 
 To use this script, you need Python installed on your system. Python 3.6 or higher is recommended. You can download Python from [python.org](https://www.python.org/downloads/).
 
-1. **Clone the repository**:
+ **Clone the repository**:
 
    ```bash
    git clone https://github.com/your_username/FlexiSort.git
    cd  FlexiSort
    ```
 
-2. **Set up a Python environment** (optional but recommended):
-
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-
-   ##Configuring Sorting Rules
+##Configuring Sorting Rules
 
 The default configuration file config.json will be created in the directory where you run the script if it does not exist. You can modify this file directly, or use the script commands to alter sorting rules:
 Add a new rule:
